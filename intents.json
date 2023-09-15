@@ -1,0 +1,77 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","hello NCID","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?","I am doing Great", "Hello!! I am good, Hope you are also fine"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Bindy","I'm Bindy","I'm Bindy Robot your virtual assistant"]
+  },
+
+  {"tag": "ncid",
+  "patterns": ["what is ncid", "how can I know more about NCID", "Can you tell me more about NCID", "Tell me about ncid", "how is NCID"],
+  "responses": ["NCID or National Corporate ID enables corporate KYC and Identity authentication as a single end to end digital journey for Enterprises and Financial institutions. Please contact our sales team for further assistance"]
+  },
+
+   {"tag": "bank app",
+  "patterns": ["how banks can access NCID bank application", "how long will it take to get access of NCID bank app", "Bank App", "Mobile Application", "Android Application", "IOS App", "IOS Application" ,"Android App", "Mobile App", "How to use it on mobile phone", "Do have a mobile app","Can I isntall it on my mobile phone", "Can I install it on my Android phone", "Can I install it on my IOS Phone"],
+  "responses": ["Contact our sales team to get a demo and understand the bank app. You will get access of web and mobile application of NCID by the sales team"]
+  },
+
+   {"tag": "Location",
+  "patterns": ["Which country NCID is operating","where is it located","Which country NCID solution is applicable", "Where is your country", "Where you work", "Where are you", "Where is your home", "Location", "Place", "Region", "Country"],
+  "responses": ["NCID is currently operating in Thailand"]
+  },
+
+  {"tag": "regulatory",
+  "patterns": ["Is NCID comply with regulatory requirement","Central bank regulation", "comply with BOT regulations", "Bank Compliance", "Regulate"],
+  "responses": ["NCID follows SSI principle for the overall mechanism of digitally data sharing and proving the authenticity. It also follows ETDA guidelines for digital signature and IAL 2.3 guidelines for personal KYC. NCID also complies with ISO 27001 guidelines"]
+  },
+
+  {"tag": "ITsupport",
+  "patterns": ["Where to create support ticket", "how to get IT support on NCID","Tech problem","How to get resolve technical problem on NCID app", "Support", "Tech Support", "Technical Support", "Tech Help", "Technical Help", "Tech Support", "How to create a ticket", "Technical ticket", "Support ticket", "Tech ticket", "Create a ticket"],
+  "responses": ["Please create a IT ticket on https://ncidsupport.freshdesk.com/support/tickets/new "]
+  },
+
+  {"tag": "SAAS",
+  "patterns": ["Is NCID SAAS solution or can be customized","Is it a SAAS solution?", "Is it SAAS", "SAAS", "Software as a service","Customization", "Customize", "Change", "Modification", "Modify", "Can the software be customized", "Can it is modified as per our requirement", "How to change the software as per my requirement"],
+  "responses": ["By default, NCID is a Software as a service (SaaS) platform for Corporate KYC, however NCID also provides API and webhooks to integrate with the core-banking system for selected customer. Contact our Sales team to get more details."]
+  },
+
+  {"tag": "safe",
+  "patterns": ["Is NCID Safe and secure", "What are safety procedures followed", "Is is secure", "Is my data safe?", "Is my data secure", "Threat", "Precaution", "Data privacy", "Data security", "Data safety","Private"],
+  "responses": ["NCID is highly safe and secure system, using all general cybersecurity principles for secure system. NCID also uses secure individual wallet to secure personal data which by default follows PDPA guidelines. Data is shared with the bank by cryptographically encrypted which makes the overall sharing of data highly secure."]
+  },
+
+  {"tag": "did",
+  "patterns": ["how to get the DID document", "What is DID Document", "Where to get DID document", "Get DID Document","Document"],
+  "responses": ["NCID keeps DID document in Polygon public blockchain. You can query DID document in blockchain explorer"]
+  },
+
+  {"tag": "blockchain",
+  "patterns": ["Is NCID blockchain based", "blockchain", "Use blockchain", "Where Blockchain","What is the backend technology used","What technology is used"],
+  "responses": ["NCID uses SSI framework. To make public key available, NCID use DID Document via Polygon blockchain. There are additional information NCID is keeping in public blockchain"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["Bye", "See you later", "Goodbye", "ByeBye"],
+  "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+  },
+
+  {"tag": "hours",
+  "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", "Are you open today?", "When do you open today?", "What are your hours today?" ],
+  "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+  },
+
+  {"tag": "false",
+  "patterns": ["Will you Marry Me", "Can you take you our for a coffee", "Will you be my Girl friend", "When you sleep", "How is weather today", "Would you like to meet me", "Let's meet sometime", "You are very beautiful", "You are very sexy", "I want to meet you", "Dinner with me", "Drink with me", "I love you", "I like you"],
+  "responses": ["Sorry I am not allowed to answer this"]
+  }
+  
+]}
